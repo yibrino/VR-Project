@@ -1,0 +1,17 @@
+Temp/
+Library/
+Logs/
+Obj/
+Build/
+Builds/
+MemoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.userprefs
+*.unitypackage
+.vs/
+.DS_Store
