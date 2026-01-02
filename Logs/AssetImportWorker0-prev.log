@@ -15,11 +15,11 @@ D:/2024/2 year/Second Semister/Virtual Reality/3D Car Racing/VR-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2123
+2596
 Successfully changed project path to: D:/2024/2 year/Second Semister/Virtual Reality/3D Car Racing/VR-Project
 D:/2024/2 year/Second Semister/Virtual Reality/3D Car Racing/VR-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 159.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 195.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -31,231 +31,155 @@ Direct3D:
     Vendor:   
     VRAM:     3951 MB
     Driver:   31.0.101.5186
-received signal from system: SIGSEGV
-Stack trace:
-0x00007ff60182e73c (Unity) 
-0x00007ff601835d39 (Unity) 
-0x00007ff6025c650c (Unity) 
-0x00007ff60182dd83 (Unity) 
-0x00007ff603cc33e2 (Unity) 
-0x00007ff603d87785 (Unity) 
-0x00007ff603c90bb8 (Unity) 
-0x00007ff96ad662ff (ntdll) 
-0x00007ff96ac12327 (ntdll) 
-0x00007ff96ad65c3e (ntdll) 
-0x00007ff60116b4d6 (Unity) 
-0x00007ff60116acaa (Unity) 
-0x00007ff6011674f4 (Unity) 
-0x00007ff601161615 (Unity) 
-0x00007ff60116642c (Unity) 
-0x00007ff600a6c16e (Unity) 
-0x00007ff600a4d140 (Unity) 
-0x00007ff603096106 (Unity) 
-0x00007ff6030996ab (Unity) 
-0x00007ff603096013 (Unity) 
-0x00007ff603070d71 (Unity) 
-0x00007ff603090765 (Unity) 
-0x00007ff6017fa967 (Unity) 
-0x00007ff6017ddfd2 (Unity) 
-0x00007ff6017de654 (Unity) 
-0x00007ff6017de404 (Unity) 
-0x00007ff6015842a9 (Unity) 
-0x00007ff60180730f (Unity) 
-0x00007ff601807ca2 (Unity) 
-0x00007ff601807e13 (Unity) 
-0x00007ff6017da284 (Unity) 
-0x00007ff6017daf37 (Unity) 
-0x00007ff60202792e (Unity) 
-0x00007ff601487772 (Unity) 
-0x00007ff602150e8d (Unity) 
-0x00007ff6025d0892 (Unity) 
-0x00007ff603c6e3ee (Unity) 
-0x00007ff968a7e8d7 (KERNEL32) 
-0x00007ff96ac8c53c (ntdll) 
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010535 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 122.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2178ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (1622ms)
+			LoadAssemblies (295ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (665ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.580 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2582ms)
+		BeginReloadAssembly (390ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (2013ms)
+			LoadAssemblies (316ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (633ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (882ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (291ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
 
-Crash!!!
-SymInit: Symbol-SearchPath: '.;D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project;C:\Program Files\Unity 2020.3.32f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'Yibrah'
-OS-Version: 10.0.0
-C:\Program Files\Unity 2020.3.32f1\Editor\Unity.exe:Unity.exe (00007FF6008F0000), size: 83607552 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity 2020.3.32f1\Editor\Unity.exe', fileVersion: 2020.3.32.63664
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF96AC00000), size: 2519040 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF968A50000), size: 823296 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF9681C0000), size: 4124672 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF9685F0000), size: 1536000 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF968070000), size: 1355776 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF969940000), size: 1855488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF9685C0000), size: 159744 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF969850000), size: 176128 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF967F40000), size: 1228800 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.26100.7309
-C:\Program Files\Unity 2020.3.32f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FF953FB0000), size: 208896 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Program Files\Unity 2020.3.32f1\Editor\optix.6.0.0.dll', fileVersion: 6.0.0.0
-C:\Program Files\Unity 2020.3.32f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FF8FA380000), size: 10215424 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity 2020.3.32f1\Editor\libfbxsdk.dll', fileVersion: 2020.2.0.0
-C:\Program Files\Unity 2020.3.32f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FF8FB630000), size: 43806720 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Unity 2020.3.32f1\Editor\OpenImageDenoise.dll'
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF967E90000), size: 667648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF969880000), size: 737280 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF969B50000), size: 692224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.26100.7623
-C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF9689A0000), size: 679936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF96A400000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\Program Files\Unity 2020.3.32f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FF94B080000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF968D40000), size: 7680000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF969D60000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FF968B20000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\Program Files\Unity 2020.3.32f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FF93EB70000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity 2020.3.32f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
-C:\WINDOWS\System32\Normaliz.dll:Normaliz.dll (00007FF969F80000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\System32\wintypes.dll:wintypes.dll (00007FF968830000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\combase.dll:combase.dll (00007FF96A010000), size: 3694592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF969C00000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\Program Files\Unity 2020.3.32f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FF9648E0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
-C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF968BA0000), size: 1667072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7462
-C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FF969B10000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF96A530000), size: 4759552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\Program Files\Unity 2020.3.32f1\Editor\tbb.dll:tbb.dll (00007FF94B010000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF969C80000), size: 876544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF9474F0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34438.0
-C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF967E00000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF93EA50000), size: 1114112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FF95F8D0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF947460000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34438.0
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF966620000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF955B50000), size: 1212416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7462
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF9624D0000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FF967C40000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FF93E9A0000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
-C:\Program Files\Unity 2020.3.32f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FF93E450000), size: 2535424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.1.0
-C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FF93E6C0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF966190000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files\Unity 2020.3.32f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FF8F9AF0000), size: 8978432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.0
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF953420000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FF957480000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF947450000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34438.0
-C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FF964D70000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\Program Files\Unity 2020.3.32f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FF946B10000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.20342
-C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FF964C90000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FF966DA0000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\Program Files\Unity 2020.3.32f1\Editor\OpenRL.dll:OpenRL.dll (0000021E8F0B0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
-C:\Program Files\Unity 2020.3.32f1\Editor\embree.dll:embree.dll (00007FF8F8B00000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
-C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005B4B0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
-C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005B550000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
-C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FF9678C0000), size: 356352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FF967070000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\Program Files\Unity 2020.3.32f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000021E8FD00000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
-C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF967460000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF966B00000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF967D50000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF964BE0000), size: 700416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FF969E80000), size: 1003520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF965920000), size: 8773632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FF967C70000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FF9694A0000), size: 720896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
-C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FF95BEC0000), size: 458752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF969C70000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF95DED0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF95DEA0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF966660000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FF9548A0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF95E970000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF95BDA0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7171
-C:\Program Files\Unity 2020.3.32f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FF902590000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF963B10000), size: 2498560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF9645F0000), size: 1290240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FF967BB0000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
-C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FF967B90000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
-C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FF95F610000), size: 405504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_3b6203e8ce805e4d\igd10iumd64.dll:igd10iumd64.dll (00007FF95DAB0000), size: 4108288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.5186
-C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FF9649F0000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_3b6203e8ce805e4d\igd10um64xe.DLL:igd10um64xe.DLL (00007FF95C1F0000), size: 25456640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.5186
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_3b6203e8ce805e4d\IntelControlLib.dll:IntelControlLib.dll (00007FF95BF40000), size: 593920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.178.0
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_3b6203e8ce805e4d\igdgmm64.dll:igdgmm64.dll (00007FF95B8E0000), size: 4448256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.5186
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_3b6203e8ce805e4d\igc64.dll:igc64.dll (00007FF957880000), size: 67452928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.5186
-C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF94B670000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
-C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF94A060000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
-C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF953260000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
-C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF949440000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FF948E00000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FF967120000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25110.6-0\MpOav.dll:MpOav.dll (00007FF948D30000), size: 663552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.25110.6
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF965330000), size: 2367488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
-C:\WINDOWS\System32\psapi.dll:psapi.dll (00007FF969DE0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 9.577000 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.121800 ms MarkObjects: 8.885100 ms  DeleteObjects: 0.366600 ms)
 
-========== OUTPUTTING STACK TRACE ==================
-
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF60181DB78)
-0x00007FF60181DB78 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF60181DC91)
-0x00007FF60181DC91 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF60182DEE7)
-0x00007FF60182DEE7 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF603CC33E2)
-0x00007FF603CC33E2 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF603D87785)
-0x00007FF603D87785 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF603C90BB8)
-0x00007FF603C90BB8 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF96AD662FF)
-0x00007FF96AD662FF (ntdll) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF96AC12327)
-0x00007FF96AC12327 (ntdll) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF96AD65C3E)
-0x00007FF96AD65C3E (ntdll) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF60116B4D6)
-0x00007FF60116B4D6 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF60116ACAA)
-0x00007FF60116ACAA (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6011674F4)
-0x00007FF6011674F4 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF601161615)
-0x00007FF601161615 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF60116642C)
-0x00007FF60116642C (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF600A6C16E)
-0x00007FF600A6C16E (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF600A4D140)
-0x00007FF600A4D140 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF603096106)
-0x00007FF603096106 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6030996AB)
-0x00007FF6030996AB (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF603096013)
-0x00007FF603096013 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF603070D71)
-0x00007FF603070D71 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF603090765)
-0x00007FF603090765 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6017FA967)
-0x00007FF6017FA967 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6017DDFD2)
-0x00007FF6017DDFD2 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6017DE654)
-0x00007FF6017DE654 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6017DE404)
-0x00007FF6017DE404 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6015842A9)
-0x00007FF6015842A9 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF60180730F)
-0x00007FF60180730F (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF601807CA2)
-0x00007FF601807CA2 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF601807E13)
-0x00007FF601807E13 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6017DA284)
-0x00007FF6017DA284 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6017DAF37)
-0x00007FF6017DAF37 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF60202792E)
-0x00007FF60202792E (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF601487772)
-0x00007FF601487772 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF602150E8D)
-0x00007FF602150E8D (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6025D0892)
-0x00007FF6025D0892 (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF603C6E3EE)
-0x00007FF603C6E3EE (Unity) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF968A7E8D7)
-0x00007FF968A7E8D7 (KERNEL32) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF96AC8C53C)
-0x00007FF96AC8C53C (ntdll) (function-name not available)
-
-========== END OF STACKTRACE ===========
-
-A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
- * C:/Users/Yibrah/AppData/Local/Temp/Unity/Editor/Crashes
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/8FastCars/Materials/Caravan_body.mat
+  artifactKey: Guid(dd3694449a9da4544978fc0b19067198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_body.mat using Guid(dd3694449a9da4544978fc0b19067198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493dfcaa2a9474362bf77af18411ba57') in 0.710840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001033 seconds.
+  path: Assets/8FastCars/Materials/Caravan_base.mat
+  artifactKey: Guid(e821f0f30c9fc8f459051743b56b399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_base.mat using Guid(e821f0f30c9fc8f459051743b56b399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187907db2a396045959797787fee34c9') in 0.083397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/8FastCars/Materials/Caravan_interior.mat
+  artifactKey: Guid(3aac017442b5c764a9a38d880567b7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_interior.mat using Guid(3aac017442b5c764a9a38d880567b7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361fc354dc06f421fcb9daf6dcbd46f4') in 0.065912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/8FastCars/Materials/Caravan_wheel.mat
+  artifactKey: Guid(4101b241a22635940ba4e8fd35b15d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_wheel.mat using Guid(4101b241a22635940ba4e8fd35b15d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d92be7c8a9952ce51bc375138a04799') in 0.099387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/8FastCars/Materials/Caravan_body1.mat
+  artifactKey: Guid(512cd23c9382ee742aed258b425f6b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_body1.mat using Guid(512cd23c9382ee742aed258b425f6b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d2519cec3b095dd2a2d1e976c6b16f') in 0.084224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/8FastCars/Materials/Caravan_details.mat
+  artifactKey: Guid(49aacf3c66a94cf4c94b579451675db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_details.mat using Guid(49aacf3c66a94cf4c94b579451675db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72024c5a36191e3d0a375575ca21ff89') in 0.079940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/8FastCars/Materials/Caravan_lights.mat
+  artifactKey: Guid(a5ccf0b3f3c30cb46bd3cda084fdb478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_lights.mat using Guid(a5ccf0b3f3c30cb46bd3cda084fdb478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ed416c3e05132c583e10559760b674') in 0.117422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/8FastCars/Materials/Caravan_tyre.mat
+  artifactKey: Guid(70367f077dd88cc4cabf9e09855a2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_tyre.mat using Guid(70367f077dd88cc4cabf9e09855a2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33896af4d6ad8ad5f2dadb170916fc2') in 0.072561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/8FastCars/Materials/Caravan_glass.mat
+  artifactKey: Guid(7bd2e196a9ecb5c4cb5f19284926ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Caravan_glass.mat using Guid(7bd2e196a9ecb5c4cb5f19284926ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225b6b2bc4f885cebcf1dbd0e62f7991') in 0.061202 seconds 
