@@ -1,0 +1,209 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 7903 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/2024/2 year/Second Semister/Virtual Reality/3D Car Racing/VR-Project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+2490
+Successfully changed project path to: D:/2024/2 year/Second Semister/Virtual Reality/3D Car Racing/VR-Project
+D:/2024/2 year/Second Semister/Virtual Reality/3D Car Racing/VR-Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/2024/2 year/Second Semister/Virtual Reality/3D Car Racing/VR-Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   
+    VRAM:     3951 MB
+    Driver:   31.0.101.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004063 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (600ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (167ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.277 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13296ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (13087ms)
+			LoadAssemblies (5776ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3184ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (3994ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (1210ms)
+				ProcessInitializeOnLoadMethodAttributes (2635ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 5.643700 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.056900 ms MarkObjects: 5.278100 ms  DeleteObjects: 0.120500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/8FastCars/Materials/Zegato_wheel.mat
+  artifactKey: Guid(9c54cb5b90e92394685efed7bab63b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_wheel.mat using Guid(9c54cb5b90e92394685efed7bab63b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaeed04aec63919a829bd62950c7698') in 0.222985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001237 seconds.
+  path: Assets/8FastCars/Materials/Zegato_glass.mat
+  artifactKey: Guid(c7b54d07d9a6c5240b605ec5ca58d431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_glass.mat using Guid(c7b54d07d9a6c5240b605ec5ca58d431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9ea44ba9b712e5489fe84c848cd911') in 0.062730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/8FastCars/Materials/Zegato_detail.mat
+  artifactKey: Guid(7605bcedf5b0ec049b94e2824a0002af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_detail.mat using Guid(7605bcedf5b0ec049b94e2824a0002af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b23b1c94bb6bedec09c36a2ccef97c4') in 0.055602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000710 seconds.
+  path: Assets/8FastCars/Materials/Thunder_mirror.mat
+  artifactKey: Guid(762c02f0614ff1e40bfd456421f0345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Thunder_mirror.mat using Guid(762c02f0614ff1e40bfd456421f0345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364b2212d35bf700e7542344516bc54a') in 0.048186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/8FastCars/Materials/Zegato_base.mat
+  artifactKey: Guid(1e3dcc3837452b44abe8208d75de9688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_base.mat using Guid(1e3dcc3837452b44abe8208d75de9688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0badee69b071679e7425feef8d560cb7') in 0.040442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/8FastCars/Materials/Thunder_lights.mat
+  artifactKey: Guid(6dab872677ec5d54f88805f77cd5bdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Thunder_lights.mat using Guid(6dab872677ec5d54f88805f77cd5bdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fab84e8c00469a4fec7a19bb2822e9d') in 0.041986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/8FastCars/Materials/Thunder_wheel.mat
+  artifactKey: Guid(0944df727b752104d9c750caf6ef6c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Thunder_wheel.mat using Guid(0944df727b752104d9c750caf6ef6c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7812cd137fa19135d7da4039567dd41') in 0.047720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/8FastCars/Materials/Zegato_chrome.mat
+  artifactKey: Guid(758e34c3896606241850f4ac2de97165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_chrome.mat using Guid(758e34c3896606241850f4ac2de97165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21f8288059f99b8396a4a417efae622') in 0.050313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/8FastCars/Materials/Zegato_body.mat
+  artifactKey: Guid(484e655fd5f57ac4ab25894b16e3d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_body.mat using Guid(484e655fd5f57ac4ab25894b16e3d6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55617b5d226b21e0a9f817a9276f5d2') in 0.052203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/8FastCars/Materials/Thunder_tyre.mat
+  artifactKey: Guid(8777de1d5dd040c40a9187a05b40761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Thunder_tyre.mat using Guid(8777de1d5dd040c40a9187a05b40761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177601544473b6caeef0aebc6686d3aa') in 0.039494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/8FastCars/Materials/Zegato_tyre.mat
+  artifactKey: Guid(c9a5bb6b74a39fa46831ab8b809cda60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_tyre.mat using Guid(c9a5bb6b74a39fa46831ab8b809cda60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376c9f0d3e4e6add94d1260e32724dea') in 0.041250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/8FastCars/Materials/Zegato_lights.mat
+  artifactKey: Guid(9ce952e424a4e9a4ca9d43c589068dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_lights.mat using Guid(9ce952e424a4e9a4ca9d43c589068dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352e43c97e352c720731a6997202a0f7') in 0.053611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/8FastCars/Materials/Zegato_interior.mat
+  artifactKey: Guid(170f22547f05cfd47a1d17a52446af75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8FastCars/Materials/Zegato_interior.mat using Guid(170f22547f05cfd47a1d17a52446af75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b456cbbf8083f9ffa08d1301ae66f8d') in 0.041355 seconds 
