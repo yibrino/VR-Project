@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\CustomEditor.cs" />
+     <Compile Include="Assets\Editor\WaypointManagerWindow.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2020.3.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -637,6 +638,12 @@
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -649,17 +656,20 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
-        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -673,17 +683,66 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Notifications.iOS">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Notifications.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Notifications.Android">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Notifications.iOS">
-        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Notifications.iOS.dll</HintPath>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{c44b4479-3154-fb98-9e4d-b3f96d250b2e}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Samples.Runtime.csproj">
+      <Project>{f71ac8fd-342a-deff-245a-58dd376db90a}</Project>
+      <Name>Unity.2D.Animation.Samples.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Samples.Dependency.csproj">
+      <Project>{f1d52636-eef6-f5f4-fb96-b0f9d494e05e}</Project>
+      <Name>Unity.2D.Animation.Samples.Dependency</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Samples.Editor.csproj">
+      <Project>{2574ba0f-fab4-9722-4ca9-4bdd66ab928b}</Project>
+      <Name>Unity.2D.Animation.Samples.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AimingRig.csproj">
+      <Project>{73aef39a-d6bb-5082-1ac5-ba7c75b2225e}</Project>
+      <Name>AimingRig</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
