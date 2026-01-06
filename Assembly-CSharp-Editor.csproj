@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\CustomEditor.cs" />
      <Compile Include="Assets\Editor\WaypointManagerWindow.cs" />
+     <Compile Include="Assets\Editor\WaypointEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2020.3.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
