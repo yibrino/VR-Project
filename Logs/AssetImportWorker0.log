@@ -141,3 +141,154 @@ Received Import Request.
   path: Assets/Garage/Garage.unity
   artifactKey: Guid(c959c098c2ae1144fa212ceefbd7a9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Garage/Garage.unity using Guid(c959c098c2ae1144fa212ceefbd7a9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abf24869aab25fa97fb6599dba80142') in 0.032980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2136.765396 seconds.
+  path: Assets/Garage/Garage_lightmap/LightingData.asset
+  artifactKey: Guid(ef12a35414ea076428128d00eef6b2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Garage_lightmap/LightingData.asset using Guid(ef12a35414ea076428128d00eef6b2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d54af08800acf4ad650b0830e479e0') in 0.777407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Garage/Garage_lightmap/Lightmap-1_comp_light.exr
+  artifactKey: Guid(3fa4c9e6adddbed48983b730acbfdd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Garage_lightmap/Lightmap-1_comp_light.exr using Guid(3fa4c9e6adddbed48983b730acbfdd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24587f7833c30e3d6a02078bac855de6') in 0.434807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Garage/Garage_lightmap/Lightmap-0_comp_dir.png
+  artifactKey: Guid(2853f48f8ccfe2b48a3fb5b5f34dd1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Garage_lightmap/Lightmap-0_comp_dir.png using Guid(2853f48f8ccfe2b48a3fb5b5f34dd1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dcc2fc16dfa4bf74e1477f793aa5f1') in 0.769839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Garage/Garage_lightmap/ReflectionProbe-0.exr
+  artifactKey: Guid(97f99e27267484b4e99da91a6a5899dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Garage_lightmap/ReflectionProbe-0.exr using Guid(97f99e27267484b4e99da91a6a5899dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4c3a42a7c8f9381232dc0baeeca108') in 0.113300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Garage/Garage_lightmap/Lightmap-1_comp_dir.png
+  artifactKey: Guid(4dfd6c8b244cd094fa26e4eaf725ff79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Garage_lightmap/Lightmap-1_comp_dir.png using Guid(4dfd6c8b244cd094fa26e4eaf725ff79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860361225e6b417eefb03ec59967371f') in 0.107548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.681286 seconds.
+  path: Assets/Garage/Particles/Textures/dust.psd
+  artifactKey: Guid(5ea91bcb0953cb14d9a4f77e07d86767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Particles/Textures/dust.psd using Guid(5ea91bcb0953cb14d9a4f77e07d86767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb68db2d4d23ae401986431ee59a7623') in 0.056621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/Garage/Particles/Textures/SunShaft.psd
+  artifactKey: Guid(ab7ad8972d8c41c4d999bdb16b723f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Particles/Textures/SunShaft.psd using Guid(ab7ad8972d8c41c4d999bdb16b723f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608fa28a88f3cf88c49cff1723ed692c') in 0.054165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.023930 seconds.
+  path: Assets/Garage/Prefab/air_duct.prefab
+  artifactKey: Guid(087206d5053fd8044be092c19fb9fc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Prefab/air_duct.prefab using Guid(087206d5053fd8044be092c19fb9fc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7e0fcacc13c77bfb60531e3599dd5f') in 0.341850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/Garage/Prefab/chair.prefab
+  artifactKey: Guid(053ec0454f3293d4ea758c979245a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Prefab/chair.prefab using Guid(053ec0454f3293d4ea758c979245a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dadc83686b21f3674cb4ea6832c716') in 0.333705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Garage/Prefab/cone.prefab
+  artifactKey: Guid(2c09bc64af457b944accd0bd43db5f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Prefab/cone.prefab using Guid(2c09bc64af457b944accd0bd43db5f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8fe290880c1ca69a0b9970c189b06b') in 0.167052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/Garage/Prefab/beer.prefab
+  artifactKey: Guid(f282dff71f552bd4c9333b98e07e2c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Prefab/beer.prefab using Guid(f282dff71f552bd4c9333b98e07e2c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9001eb61313f5725ccf5f36c70e6175d') in 0.135636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000797 seconds.
+  path: Assets/Garage/Prefab/barrel.prefab
+  artifactKey: Guid(3ff6049185ff3724f960d0e5a8a5ff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Prefab/barrel.prefab using Guid(3ff6049185ff3724f960d0e5a8a5ff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ea4673f12860bcd0f303fe731a5be5') in 0.131458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Garage/Prefab/dirt.prefab
+  artifactKey: Guid(dd84c1bf361736c4ca9d377d641b0150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Prefab/dirt.prefab using Guid(dd84c1bf361736c4ca9d377d641b0150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9ab7c1258485c80148859e1424a409') in 0.138515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Garage/Prefab/bin.prefab
+  artifactKey: Guid(40c8e12fcf6de844ca253713fefc852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Prefab/bin.prefab using Guid(40c8e12fcf6de844ca253713fefc852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1260a4725b93df44964dc049cd618f69') in 0.138183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/Garage/Source/Garage.FBX
+  artifactKey: Guid(9c3cfc61cdf33fa488fd131cec8eb596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Garage.FBX using Guid(9c3cfc61cdf33fa488fd131cec8eb596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ed067c388227731b64ee954ddb3428') in 3.730436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000808 seconds.
+  path: Assets/Garage/Source/Garage.prefab
+  artifactKey: Guid(9b79a6e334f5c224ab1888b6eec45a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Garage.prefab using Guid(9b79a6e334f5c224ab1888b6eec45a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84222bafa36a22caaf9c715318ea2153') in 1.157858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/Garage/Prefab/car_repair.prefab
+  artifactKey: Guid(2ce42d82cac32004ea4a98e1cdf83fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Prefab/car_repair.prefab using Guid(2ce42d82cac32004ea4a98e1cdf83fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413e3e5d1e21dc8db3adc85b8032e344') in 0.153893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.977139 seconds.
+  path: Assets/Garage/Source/Textures/Car Floor.tif
+  artifactKey: Guid(b4635614724c7df42897503ff6f2d926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Textures/Car Floor.tif using Guid(b4635614724c7df42897503ff6f2d926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897842ace54758b9dd91fa1200b8f383') in 0.052856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Garage/Source/Textures/skybox_day.hdr
+  artifactKey: Guid(c7c9f05232998b0469fc07e5f4c21e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Textures/skybox_day.hdr using Guid(c7c9f05232998b0469fc07e5f4c21e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5add359f328e5246858690834eb7b') in 0.079875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/Garage/Source/Textures/Garage Outdoor.tif
+  artifactKey: Guid(8939afe673d403145bcb2c0c09dbed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Textures/Garage Outdoor.tif using Guid(8939afe673d403145bcb2c0c09dbed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8deb2932141113573596f8e8abaafe5f') in 0.069987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Garage/Source/Textures/Garage Props Glow.tif
+  artifactKey: Guid(daff2dc974a5273448a4876fcfc3f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Textures/Garage Props Glow.tif using Guid(daff2dc974a5273448a4876fcfc3f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43109a641d11b7d18889d41eed62de9d') in 0.069435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/Garage/Source/Textures/Garage Blue.psd
+  artifactKey: Guid(12396722dcd5aec42a6224ccf8ef0edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Textures/Garage Blue.psd using Guid(12396722dcd5aec42a6224ccf8ef0edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bbddc936c6517cabd5abaac3369039') in 0.072531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Garage/Source/Textures/Garage Props.tif
+  artifactKey: Guid(f7b9ccc0c7603ce41be7e8b7bab243df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Textures/Garage Props.tif using Guid(f7b9ccc0c7603ce41be7e8b7bab243df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c01215df6fe1e591b18d0271968415') in 0.093776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000771 seconds.
+  path: Assets/Garage/Source/Textures/Dealer Floor.tif
+  artifactKey: Guid(a11263911c44e66459fc0646a867409d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Textures/Dealer Floor.tif using Guid(a11263911c44e66459fc0646a867409d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cd6169fa6ed2829cc4ff4e1c94999d') in 0.066482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.936588 seconds.
+  path: Assets/Garage/Source/Textures/Window Glass.png
+  artifactKey: Guid(cdea6b738e8613348bd54e1adfbe0b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/Source/Textures/Window Glass.png using Guid(cdea6b738e8613348bd54e1adfbe0b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264a75fe2cfe8766ecf164a302bf23f6') in 0.045273 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
