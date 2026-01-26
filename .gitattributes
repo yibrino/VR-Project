@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Auto detect text files and perform LF normalization
 * text=auto
 *.tif filter=lfs diff=lfs merge=lfs -text
+=======
+>>>>>>> 7adaeeb0a2ea33aa7829c26b698c51ad2f8134bf
 Assets/Classical_city/Textures/*.tif filter=lfs diff=lfs merge=lfs -text
