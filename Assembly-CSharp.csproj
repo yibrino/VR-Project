@@ -37,8 +37,41 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\engine\inputConstants.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\BossCamera\CustomLockCameraY.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\InputSystemHelper.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\2D\LoseSightWhenTargetsFallsOffThePlatform.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\2D\MouseScrollZoom2D.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
      <Compile Include="Assets\Scripts\engine\LateExe.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement.cs" />
      <Compile Include="Assets\Scripts\engine\inputHandler.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\ActivateCamOnPlay.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\SimpleElevator.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\DualTarget\PointAtAimTarget.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\CinemachineFadeOutNearbyObjects.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\BossCamera\BossLookAt.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\ThirdPersonFollowDistanceModifier.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
+     <None Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
+     <None Include="Assets\Classical_city\Particles\Rain Drops\Resources\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2020.3.32f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -597,6 +630,12 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity 2020.3.32f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -609,17 +648,20 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
-        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -633,14 +675,63 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Notifications.Android">
-        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Notifications.iOS">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Notifications.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.Android">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.2D.Animation.Samples.Runtime.csproj">
+      <Project>{f71ac8fd-342a-deff-245a-58dd376db90a}</Project>
+      <Name>Unity.2D.Animation.Samples.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Samples.Dependency.csproj">
+      <Project>{f1d52636-eef6-f5f4-fb96-b0f9d494e05e}</Project>
+      <Name>Unity.2D.Animation.Samples.Dependency</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Samples.Editor.csproj">
+      <Project>{2574ba0f-fab4-9722-4ca9-4bdd66ab928b}</Project>
+      <Name>Unity.2D.Animation.Samples.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AimingRig.csproj">
+      <Project>{73aef39a-d6bb-5082-1ac5-ba7c75b2225e}</Project>
+      <Name>AimingRig</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
