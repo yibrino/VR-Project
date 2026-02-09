@@ -1388,7 +1388,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 433901309}
-  - component: {fileID: 433901312}
   - component: {fileID: 433901311}
   - component: {fileID: 433901310}
   m_Layer: 6
@@ -1406,7 +1405,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433901308}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.79, z: 14.8}
+  m_LocalPosition: {x: 0.38, y: 0.01, z: 0.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 90425661}
@@ -1446,30 +1445,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &433901312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 433901308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c4941a7e6b7b1d479b3c0ef2556a9a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frontLeftWheelCollider: {fileID: 235891351}
-  frontRightWheelCollider: {fileID: 92572997}
-  backLeftWheelCollider: {fileID: 767875676}
-  backRightWheelCollider: {fileID: 1182785749}
-  frontLeftWheelTransform: {fileID: 2114609878}
-  frontRightWheelTransform: {fileID: 175148004}
-  backLeftWheelTransform: {fileID: 1233057626}
-  backRightWheelTransform: {fileID: 243511011}
-  accelerationForce: 300
-  breakingForce: 3000
-  wheelsTorque: 35
-  presentTurnAngle: 0
 --- !u!64 &454091008
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30615,6 +30590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 468635078}
+  - component: {fileID: 468635079}
   m_Layer: 0
   m_Name: PlayerCarSpawnArea
   m_TagString: Untagged
@@ -30630,15 +30606,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468635077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.57, y: 1.9, z: -14.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 433901309}
   - {fileID: 1934912345}
   - {fileID: 1191209915}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &468635079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468635077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f817b3719067e67419a0bcd60e5bd4bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextButton: {fileID: 1456247347}
+  previousButton: {fileID: 1501563343}
 --- !u!1 &469312588
 GameObject:
   m_ObjectHideFlags: 0
@@ -30733,7 +30723,7 @@ RectTransform:
   - {fileID: 1456247346}
   - {fileID: 1501563342}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -32907,7 +32897,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180459709}
   m_LocalRotation: {x: -0, y: -0.99934316, z: -0, w: -0.036239836}
-  m_LocalPosition: {x: 0.478, y: 0.721, z: 5.838}
+  m_LocalPosition: {x: -0.26, y: 0.44, z: 6.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -33044,7 +33034,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1191209915}
-  - component: {fileID: 1191209918}
   - component: {fileID: 1191209917}
   - component: {fileID: 1191209916}
   m_Layer: 6
@@ -33062,7 +33051,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191209914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11, y: -1.36, z: 15.62}
+  m_LocalPosition: {x: 0.53, y: 0.03, z: 0.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1581296825}
@@ -33102,30 +33091,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &1191209918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1191209914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c4941a7e6b7b1d479b3c0ef2556a9a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frontLeftWheelCollider: {fileID: 365358394}
-  frontRightWheelCollider: {fileID: 1475591721}
-  backLeftWheelCollider: {fileID: 1453216512}
-  backRightWheelCollider: {fileID: 1038352510}
-  frontLeftWheelTransform: {fileID: 702515049}
-  frontRightWheelTransform: {fileID: 2053965590}
-  backLeftWheelTransform: {fileID: 1356890705}
-  backRightWheelTransform: {fileID: 528047422}
-  accelerationForce: 300
-  breakingForce: 3000
-  wheelsTorque: 35
-  presentTurnAngle: 0
 --- !u!1 &1233057625
 GameObject:
   m_ObjectHideFlags: 0
@@ -34108,7 +34073,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -109, y: 0}
-  m_SizeDelta: {x: 143.4439, y: 128}
+  m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1456247347
 MonoBehaviour:
@@ -34153,7 +34118,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1456247348}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 468635079}
+        m_TargetAssemblyTypeName: CarSelection, Assembly-CSharp
+        m_MethodName: switchCar
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1456247348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34322,7 +34299,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 63, y: 0}
+  m_AnchoredPosition: {x: 64, y: 0}
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1501563343
@@ -34368,7 +34345,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1501563344}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 468635079}
+        m_TargetAssemblyTypeName: CarSelection, Assembly-CSharp
+        m_MethodName: switchCar
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1501563344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35278,7 +35267,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1934912345}
-  - component: {fileID: 1934912348}
   - component: {fileID: 1934912347}
   - component: {fileID: 1934912346}
   m_Layer: 6
@@ -35296,7 +35284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934912344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11, y: -1.36, z: 15.62}
+  m_LocalPosition: {x: 0.61, y: 0.06, z: 0.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 850240096}
@@ -35336,30 +35324,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &1934912348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934912344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c4941a7e6b7b1d479b3c0ef2556a9a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frontLeftWheelCollider: {fileID: 824605850}
-  frontRightWheelCollider: {fileID: 1189521172}
-  backLeftWheelCollider: {fileID: 1297881170}
-  backRightWheelCollider: {fileID: 1113661910}
-  frontLeftWheelTransform: {fileID: 1757679348}
-  frontRightWheelTransform: {fileID: 1966159482}
-  backLeftWheelTransform: {fileID: 1961580157}
-  backRightWheelTransform: {fileID: 1748892020}
-  accelerationForce: 300
-  breakingForce: 3000
-  wheelsTorque: 35
-  presentTurnAngle: 0
 --- !u!1001 &1955543508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35993,7 +35957,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2049648679
 GameObject:

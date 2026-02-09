@@ -37,8 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\engine\inputConstants.cs" />
+     <Compile Include="Assets\Scripts\Finish.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\BossCamera\CustomLockCameraY.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\OpponentCarWaypoints.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\InputSystemHelper.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
@@ -73,8 +75,7 @@
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
      <Compile Include="Assets\Scripts\OpponentCar.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
-     <Compile Include="Assets\Scripts\Timer.cs" />
-     <Compile Include="Assets\Scripts\Finish.cs" />
+     <Compile Include="Assets\Scripts\CarSelection.cs" />
      <None Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
      <None Include="Assets\Classical_city\Particles\Rain Drops\Resources\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />
