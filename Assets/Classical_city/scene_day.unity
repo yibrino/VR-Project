@@ -169,6 +169,89 @@ Transform:
   m_Father: {fileID: 1202149546}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &112604072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 112604073}
+  - component: {fileID: 112604075}
+  - component: {fileID: 112604074}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &112604073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112604072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.323, y: 0.599, z: -1.992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2666567996979787546}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &112604074
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112604072}
+  m_Enabled: 1
+--- !u!20 &112604075
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112604072}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &142460428
 GameObject:
   m_ObjectHideFlags: 0
@@ -174369,6 +174452,7 @@ GameObject:
   - component: {fileID: 1684482461216206633}
   - component: {fileID: 1684482461215398493}
   - component: {fileID: 1684482461214020451}
+  - component: {fileID: 1684482461216281528}
   m_Layer: 0
   m_Name: Zegato_wheel_FR
   m_TagString: Untagged
@@ -174376,6 +174460,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1684482461216281528
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684482461216281527}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1684482461216291657
 GameObject:
   m_ObjectHideFlags: 0
@@ -174422,6 +174525,7 @@ GameObject:
   - component: {fileID: 1684482461216239255}
   - component: {fileID: 1684482461215394117}
   - component: {fileID: 1684482461214366167}
+  - component: {fileID: 1684482461216490806}
   m_Layer: 0
   m_Name: Zegato_wheel_RR
   m_TagString: Untagged
@@ -174429,6 +174533,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1684482461216490806
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684482461216490805}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1684482461216506415
 GameObject:
   m_ObjectHideFlags: 0
@@ -174440,6 +174563,7 @@ GameObject:
   - component: {fileID: 1684482461216252595}
   - component: {fileID: 1684482461215375443}
   - component: {fileID: 1684482461214317059}
+  - component: {fileID: 1684482461216506416}
   m_Layer: 0
   m_Name: Zegato_wheel_FL
   m_TagString: Untagged
@@ -174447,6 +174571,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1684482461216506416
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684482461216506415}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1684482461216511985
 GameObject:
   m_ObjectHideFlags: 0
@@ -174538,6 +174681,7 @@ GameObject:
   - component: {fileID: 1684482461216223385}
   - component: {fileID: 1684482461215402243}
   - component: {fileID: 1684482461214328337}
+  - component: {fileID: 1684482461216518356}
   m_Layer: 0
   m_Name: Zegato_wheel_RL
   m_TagString: Untagged
@@ -174545,6 +174689,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1684482461216518356
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684482461216518355}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1684482461216525141
 GameObject:
   m_ObjectHideFlags: 0
@@ -176052,6 +176215,7 @@ GameObject:
   - component: {fileID: 2666567996979692378}
   - component: {fileID: 2666567996978483838}
   - component: {fileID: 2666567996977350564}
+  - component: {fileID: 2666567996979317229}
   m_Layer: 0
   m_Name: Fury_Wheel_FR
   m_TagString: Untagged
@@ -176059,6 +176223,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2666567996979317229
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2666567996979317228}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2666567996979331354
 GameObject:
   m_ObjectHideFlags: 0
@@ -176070,6 +176253,7 @@ GameObject:
   - component: {fileID: 2666567996979689934}
   - component: {fileID: 2666567996978472584}
   - component: {fileID: 2666567996977323278}
+  - component: {fileID: 2666567996979331355}
   m_Layer: 0
   m_Name: Fury_Wheel_RL
   m_TagString: Untagged
@@ -176077,6 +176261,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2666567996979331355
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2666567996979331354}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2666567996979342214
 GameObject:
   m_ObjectHideFlags: 0
@@ -176177,6 +176380,7 @@ GameObject:
   - component: {fileID: 2666567996979783644}
   - component: {fileID: 2666567996978463402}
   - component: {fileID: 2666567996977320988}
+  - component: {fileID: 2666567996979516343}
   m_Layer: 0
   m_Name: Fury_Wheel_RR
   m_TagString: Untagged
@@ -176184,6 +176388,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2666567996979516343
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2666567996979516342}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2666567996979518842
 GameObject:
   m_ObjectHideFlags: 0
@@ -176195,6 +176418,7 @@ GameObject:
   - component: {fileID: 2666567996979742714}
   - component: {fileID: 2666567996978404006}
   - component: {fileID: 2666567996977558140}
+  - component: {fileID: 2666567996979518843}
   m_Layer: 0
   m_Name: Fury_Wheel_FL
   m_TagString: Untagged
@@ -176202,6 +176426,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2666567996979518843
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2666567996979518842}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2666567996979519982
 GameObject:
   m_ObjectHideFlags: 0
@@ -176447,6 +176690,7 @@ Transform:
   m_Children:
   - {fileID: 1039778440}
   - {fileID: 808467899}
+  - {fileID: 112604073}
   m_Father: {fileID: 310479534}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -176851,6 +177095,7 @@ GameObject:
   - component: {fileID: 2815430127484458672}
   - component: {fileID: 2815430127483189854}
   - component: {fileID: 2815430127482145530}
+  - component: {fileID: 2815430127484156665}
   m_Layer: 0
   m_Name: Thunder_wheel_FL
   m_TagString: Untagged
@@ -176858,6 +177103,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2815430127484156665
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815430127484156664}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2815430127484170450
 GameObject:
   m_ObjectHideFlags: 0
@@ -176869,6 +177133,7 @@ GameObject:
   - component: {fileID: 2815430127484471972}
   - component: {fileID: 2815430127483204802}
   - component: {fileID: 2815430127482155446}
+  - component: {fileID: 2815430127484170451}
   m_Layer: 0
   m_Name: Thunder_wheel_RL
   m_TagString: Untagged
@@ -176876,6 +177141,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2815430127484170451
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815430127484170450}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2815430127484188952
 GameObject:
   m_ObjectHideFlags: 0
@@ -176967,6 +177251,7 @@ GameObject:
   - component: {fileID: 2815430127484531068}
   - component: {fileID: 2815430127483207626}
   - component: {fileID: 2815430127482121404}
+  - component: {fileID: 2815430127484191039}
   m_Layer: 0
   m_Name: Thunder_wheel_FR
   m_TagString: Untagged
@@ -176974,6 +177259,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2815430127484191039
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815430127484191038}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2815430127484238198
 GameObject:
   m_ObjectHideFlags: 0
@@ -176985,6 +177289,7 @@ GameObject:
   - component: {fileID: 2815430127484473182}
   - component: {fileID: 2815430127483096664}
   - component: {fileID: 2815430127482439904}
+  - component: {fileID: 2815430127484238199}
   m_Layer: 0
   m_Name: Thunder_wheel_RR
   m_TagString: Untagged
@@ -176992,6 +177297,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2815430127484238199
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815430127484238198}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2815430127484397372
 GameObject:
   m_ObjectHideFlags: 0
@@ -177946,6 +178270,7 @@ GameObject:
   - component: {fileID: 5361043558646512230}
   - component: {fileID: 5361043558649338878}
   - component: {fileID: 5361043558648720052}
+  - component: {fileID: 5361043558646267547}
   m_Layer: 0
   m_Name: Megan_Wheel_RL
   m_TagString: Untagged
@@ -177953,6 +178278,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &5361043558646267547
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5361043558646267546}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5361043558646270082
 GameObject:
   m_ObjectHideFlags: 0
@@ -178080,6 +178424,7 @@ GameObject:
   - component: {fileID: 5361043558646533502}
   - component: {fileID: 5361043558649379708}
   - component: {fileID: 5361043558648258244}
+  - component: {fileID: 5361043558646298557}
   m_Layer: 0
   m_Name: Megan_Wheel_RR
   m_TagString: Untagged
@@ -178087,6 +178432,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &5361043558646298557
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5361043558646298556}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5361043558646303536
 GameObject:
   m_ObjectHideFlags: 0
@@ -178098,6 +178462,7 @@ GameObject:
   - component: {fileID: 5361043558646532316}
   - component: {fileID: 5361043558649354084}
   - component: {fileID: 5361043558648757888}
+  - component: {fileID: 5361043558646303537}
   m_Layer: 0
   m_Name: Megan_Wheel_FR
   m_TagString: Untagged
@@ -178105,6 +178470,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &5361043558646303537
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5361043558646303536}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5361043558646306884
 GameObject:
   m_ObjectHideFlags: 0
@@ -178116,6 +178500,7 @@ GameObject:
   - component: {fileID: 5361043558646456410}
   - component: {fileID: 5361043558649389984}
   - component: {fileID: 5361043558648307314}
+  - component: {fileID: 5361043558646306885}
   m_Layer: 0
   m_Name: Megan_Wheel_FL
   m_TagString: Untagged
@@ -178123,6 +178508,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &5361043558646306885
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5361043558646306884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c66027731691f7249ad14d2daf2b938a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5361043558646309948
 GameObject:
   m_ObjectHideFlags: 0
