@@ -840,11 +840,11 @@ Transform:
   m_LocalPosition: {x: 91.37059, y: 8.86544, z: 120.76546}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3125206917844916736}
   - {fileID: 5361043558646453170}
   - {fileID: 1684482461216227291}
   - {fileID: 2815430127484449486}
   - {fileID: 2666567996979787546}
+  - {fileID: 3125206917844916736}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3688,6 +3688,7 @@ GameObject:
   - component: {fileID: 1437072497}
   - component: {fileID: 1437072496}
   - component: {fileID: 1437072495}
+  - component: {fileID: 1437072499}
   m_Layer: 5
   m_Name: PlayerCanvas
   m_TagString: Untagged
@@ -3776,6 +3777,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1437072499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437072494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870bdee0dd8957848ab647a7450161d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countDownTimer: 5
+  playerCarController: {fileID: 1990191075183388729}
+  opponentCar: {fileID: 3125206917844700943}
+  opponentCar1: {fileID: 5361043558646280965}
+  opponentCar2: {fileID: 2666567996979519984}
+  opponentCar3: {fileID: 1684482461216511986}
+  opponentCar4: {fileID: 2815430127484188953}
+  countDownText: {fileID: 1897209835}
 --- !u!1 &1443052626
 GameObject:
   m_ObjectHideFlags: 0
@@ -174545,7 +174566,7 @@ Transform:
   - {fileID: 1649146947}
   - {fileID: 461896755}
   m_Father: {fileID: 310479534}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1684482461216236929
 Transform:
@@ -175689,7 +175710,7 @@ GameObject:
   - component: {fileID: 1990191075183388728}
   - component: {fileID: 1990191075183388727}
   m_Layer: 0
-  m_Name: Caravan
+  m_Name: PlayerCar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176853,7 +176874,7 @@ Transform:
   - {fileID: 1039778440}
   - {fileID: 808467899}
   m_Father: {fileID: 310479534}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2666567996979788648
 Transform:
@@ -177509,7 +177530,7 @@ Transform:
   - {fileID: 1743740322}
   - {fileID: 2007562519}
   m_Father: {fileID: 310479534}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2815430127484454654
 Transform:
@@ -178263,7 +178284,7 @@ Transform:
   - {fileID: 615906061}
   - {fileID: 416384531}
   m_Father: {fileID: 310479534}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3125206917844919862
 Transform:
@@ -178734,7 +178755,7 @@ Transform:
   - {fileID: 1316649204}
   - {fileID: 1888183267}
   m_Father: {fileID: 310479534}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5361043558646456410
 Transform:
