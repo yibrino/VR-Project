@@ -10,6 +10,10 @@ public class Timer : MonoBehaviour
 
     [Header("Things to stop")]
     public PlayerCarController playerCarController;
+    public PlayerCarController playerCarController1;
+    public PlayerCarController playerCarController2;
+
+
     public OpponentCar opponentCar;
     public OpponentCar opponentCar1;
     public OpponentCar opponentCar2;
@@ -27,9 +31,12 @@ public class Timer : MonoBehaviour
     void Update()
     {
         // Keep cars stopped until countdown reaches 0
-        if (countDownTimer > 1f)
+        if (countDownTimer > 1)
         {
             playerCarController.accelerationForce = 0f;
+            playerCarController1.accelerationForce = 0f;
+            playerCarController2.accelerationForce = 0f;
+
 
             opponentCar.movingSpeed     = 0f;
             opponentCar1.movingSpeed    = 0f;
@@ -38,10 +45,14 @@ public class Timer : MonoBehaviour
             opponentCar4.movingSpeed    = 0f;
         }
         // When countdown hits 0 → start the race
-        else if (countDownTimer <= 0f)
+        else if (countDownTimer == 0)
         {
             // Only apply once (or you can move this to the coroutine end)
             playerCarController.accelerationForce = 300f;
+            playerCarController1.accelerationForce = 300f;
+            playerCarController2.accelerationForce = 300f;
+
+
 
             opponentCar.movingSpeed     = 12f;
             opponentCar1.movingSpeed    = 13f;
