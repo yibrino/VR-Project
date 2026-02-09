@@ -1201,7 +1201,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416384530}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -174458,6 +174458,8 @@ GameObject:
   - component: {fileID: 1684482461216227291}
   - component: {fileID: 1684482461216511986}
   - component: {fileID: 1684482461216511987}
+  - component: {fileID: 1684482461216511989}
+  - component: {fileID: 1684482461216511988}
   m_Layer: 0
   m_Name: OpponentCar3
   m_TagString: Untagged
@@ -174496,6 +174498,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   opponentCar: {fileID: 1684482461216511986}
   currentWayPoint: {fileID: 646228112}
+--- !u!54 &1684482461216511988
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684482461216511985}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1684482461216511989
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684482461216511985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.725863, y: 1.126042, z: 4.611637}
+  m_Center: {x: 0.01654, y: 0.580134, z: -0.195528}
 --- !u!1 &1684482461216518355
 GameObject:
   m_ObjectHideFlags: 0
@@ -175500,20 +175531,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &2666567996973135978
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2666567996979513514}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300024, guid: 2529b2b90e65f1f4bb4df4f4e4a2e8c2, type: 3}
 --- !u!23 &2666567996977320988
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -176142,7 +176159,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2666567996979678550}
   - component: {fileID: 2666567996978490340}
-  - component: {fileID: 2666567996973135978}
   m_Layer: 0
   m_Name: Fury_body_col
   m_TagString: Untagged
@@ -176230,7 +176246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07ccb0def24a8847b1d739f6e1db99b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingSpeed: 10
+  movingSpeed: 14
   turningSpeed: 50
   breakSpeed: 12
   destination: {x: 0, y: 0, z: 0}
@@ -176841,6 +176857,7 @@ GameObject:
   - component: {fileID: 2815430127484188953}
   - component: {fileID: 2815430127484188954}
   - component: {fileID: 2815430127484188955}
+  - component: {fileID: 2815430127484188956}
   m_Layer: 0
   m_Name: OpponentCar4
   m_TagString: Untagged
@@ -176890,8 +176907,24 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.673587, y: 1.22256, z: 4.464287}
+  m_Center: {x: -0.03303, y: 0.666606, z: -0.272491}
+--- !u!54 &2815430127484188956
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815430127484188952}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2815430127484191038
 GameObject:
   m_ObjectHideFlags: 0
@@ -177623,7 +177656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07ccb0def24a8847b1d739f6e1db99b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingSpeed: 7
+  movingSpeed: 12
   turningSpeed: 50
   breakSpeed: 12
   destination: {x: 0, y: 0, z: 0}
@@ -177941,7 +177974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07ccb0def24a8847b1d739f6e1db99b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingSpeed: 11
+  movingSpeed: 13
   turningSpeed: 50
   breakSpeed: 12
   destination: {x: 0, y: 0, z: 0}
