@@ -37,13 +37,13 @@ public class PlayerCarController : MonoBehaviour
 
     private void MoveCar()
     {
-        //FWD
+                presentAcceleration = accelerationForce * Input.GetAxis("Vertical");
+
         frontLeftWheelCollider.motorTorque = presentAcceleration;
         frontRightWheelCollider.motorTorque = presentAcceleration;
         backLeftWheelCollider.motorTorque = presentAcceleration;
         backRightWheelCollider.motorTorque = presentAcceleration;
 
-        presentAcceleration = accelerationForce * Input.GetAxis("Vertical");
     }
     private void CarSteering()
     {
