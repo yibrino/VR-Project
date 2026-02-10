@@ -21,12 +21,17 @@ public class PlayerCarController : MonoBehaviour
     public float breakingForce = 3000f;
     private float presentBreakForce = 0f;
     private float presentAcceleration = 0f;
+
     [Header("Car Steering")]
-    public float wheelsTorque=35f;
-    public float presentTurnAngle=0f;
+    public float wheelsTorque = 35f;
+    public float presentTurnAngle = 0f;
 
-
-
+    // ✅ ADDED EXACTLY FROM THE SCREENSHOT
+    [Header("Car Sounds")]
+    public AudioSource audioSource;
+    public AudioClip accelerationSound;
+    public AudioClip slowAccelerationSound;
+    public AudioClip stopSound;
 
     private void Update()
     {
@@ -36,24 +41,37 @@ public class PlayerCarController : MonoBehaviour
 
     private void MoveCar()
     {
-                // presentAcceleration = accelerationForce * Input.GetAxis("Vertical");
+        // presentAcceleration = accelerationForce * Input.GetAxis("Vertical");
         presentAcceleration = accelerationForce * SimpleInput.GetAxis("Vertical");
-
 
         frontLeftWheelCollider.motorTorque = presentAcceleration;
         frontRightWheelCollider.motorTorque = presentAcceleration;
         backLeftWheelCollider.motorTorque = presentAcceleration;
         backRightWheelCollider.motorTorque = presentAcceleration;
 
+        // ✅ ADDED EXACTLY FROM THE SCREENSHOT
+        if (presentAcceleration > 0)
+        {
+            audioSource.PlayOneShot(accelerationSound, 0.2f);
+        }
+        else if (presentAcceleration < 0)
+        {
+            audioSource.PlayOneShot(slowAccelerationSound, 0.2f);
+        }
+        else if (presentAcceleration == 0)
+        {
+            audioSource.PlayOneShot(stopSound, 0.1f);
+        }
     }
+
     private void CarSteering()
     {
         // presentTurnAngle=wheelsTorque*Input.GetAxis("Horizontal");
-        presentTurnAngle=wheelsTorque*SimpleInput.GetAxis("Horizontal");
+        presentTurnAngle = wheelsTorque * SimpleInput.GetAxis("Horizontal");
 
-        frontLeftWheelCollider.steerAngle= presentTurnAngle;
-    
-        frontRightWheelCollider.steerAngle=presentTurnAngle;
+        frontLeftWheelCollider.steerAngle = presentTurnAngle;
+
+        frontRightWheelCollider.steerAngle = presentTurnAngle;
         SteeringWheels(frontLeftWheelCollider, frontLeftWheelTransform);
         SteeringWheels(frontRightWheelCollider, frontRightWheelTransform);
         SteeringWheels(backLeftWheelCollider, backLeftWheelTransform);
@@ -61,40 +79,39 @@ public class PlayerCarController : MonoBehaviour
     }
 
     void SteeringWheels(WheelCollider WC, Transform WT)
-{
-    Vector3 position;
-    Quaternion rotation;
+    {
+        Vector3 position;
+        Quaternion rotation;
 
-    WC.GetWorldPose(out position, out rotation);
+        WC.GetWorldPose(out position, out rotation);
 
-    WT.position = position;
-    WT.rotation = rotation;
-}
-public void ApplyBreaks()
-{
-    StartCoroutine(CarBreaks());
-}
+        WT.position = position;
+        WT.rotation = rotation;
+    }
 
-private IEnumerator CarBreaks()
-{
-    // Apply brake
-    presentBreakForce = breakingForce;
+    public void ApplyBreaks()
+    {
+        StartCoroutine(CarBreaks());
+    }
 
-    frontLeftWheelCollider.brakeTorque  = presentBreakForce;
-    frontRightWheelCollider.brakeTorque = presentBreakForce;
-    backLeftWheelCollider.brakeTorque   = presentBreakForce;
-    backRightWheelCollider.brakeTorque  = presentBreakForce;
+    private IEnumerator CarBreaks()
+    {
+        // Apply brake
+        presentBreakForce = breakingForce;
 
-    yield return new WaitForSeconds(2f);
+        frontLeftWheelCollider.brakeTorque = presentBreakForce;
+        frontRightWheelCollider.brakeTorque = presentBreakForce;
+        backLeftWheelCollider.brakeTorque = presentBreakForce;
+        backRightWheelCollider.brakeTorque = presentBreakForce;
 
-    // Release brake
-    presentBreakForce = 0f;
+        yield return new WaitForSeconds(2f);
 
-    frontLeftWheelCollider.brakeTorque  = presentBreakForce;
-    frontRightWheelCollider.brakeTorque = presentBreakForce;
-    backLeftWheelCollider.brakeTorque   = presentBreakForce;
-    backRightWheelCollider.brakeTorque  = presentBreakForce;
-}
+        // Release brake
+        presentBreakForce = 0f;
 
-
+        frontLeftWheelCollider.brakeTorque = presentBreakForce;
+        frontRightWheelCollider.brakeTorque = presentBreakForce;
+        backLeftWheelCollider.brakeTorque = presentBreakForce;
+        backRightWheelCollider.brakeTorque = presentBreakForce;
+    }
 }
