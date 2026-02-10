@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Classical_city/scene_day.unity
+    guid: 0168ff1d89866044e9fc197dafe69d10
+  - enabled: 1
+    path: Assets/Garage/Garage.unity
+    guid: c959c098c2ae1144fa212ceefbd7a9e2
   m_configObjects: {}
