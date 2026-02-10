@@ -32,7 +32,6 @@ public class PlayerCarController : MonoBehaviour
     {
         MoveCar();
         CarSteering();
-        ApplyBreaks();
     }
 
     private void MoveCar()
@@ -73,15 +72,28 @@ public class PlayerCarController : MonoBehaviour
 }
 public void ApplyBreaks()
 {
-    if (Input.GetKey(KeyCode.Space))
-        presentBreakForce = breakingForce;
-    else
-        presentBreakForce = 0f;
+    StartCoroutine(CarBreaks());
+}
 
-    frontLeftWheelCollider.brakeTorque = presentBreakForce;
+private IEnumerator CarBreaks()
+{
+    // Apply brake
+    presentBreakForce = breakingForce;
+
+    frontLeftWheelCollider.brakeTorque  = presentBreakForce;
     frontRightWheelCollider.brakeTorque = presentBreakForce;
-    backLeftWheelCollider.brakeTorque = presentBreakForce;
-    backRightWheelCollider.brakeTorque = presentBreakForce;
+    backLeftWheelCollider.brakeTorque   = presentBreakForce;
+    backRightWheelCollider.brakeTorque  = presentBreakForce;
+
+    yield return new WaitForSeconds(2f);
+
+    // Release brake
+    presentBreakForce = 0f;
+
+    frontLeftWheelCollider.brakeTorque  = presentBreakForce;
+    frontRightWheelCollider.brakeTorque = presentBreakForce;
+    backLeftWheelCollider.brakeTorque   = presentBreakForce;
+    backRightWheelCollider.brakeTorque  = presentBreakForce;
 }
 
 
