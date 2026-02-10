@@ -48,6 +48,7 @@
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\2D\LoseSightWhenTargetsFallsOffThePlatform.cs" />
+     <Compile Include="Assets\Scripts\CarSelection.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\2D\MouseScrollZoom2D.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
@@ -75,7 +76,6 @@
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
      <Compile Include="Assets\Scripts\OpponentCar.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
-     <Compile Include="Assets\Scripts\CarSelection.cs" />
      <None Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
      <None Include="Assets\Classical_city\Particles\Rain Drops\Resources\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Samples\Cinemachine\2.9.7\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />
@@ -721,6 +721,9 @@
     <Reference Include="Unity.2D.Common.Editor">
         <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+        <HintPath>D:\2024\2 year\Second Semister\Virtual Reality\3D Car Racing\VR-Project\Library\ScriptAssemblies\Unity.DeviceSimulator.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Animation.Samples.Runtime.csproj">
@@ -738,6 +741,14 @@
     <ProjectReference Include="AimingRig.csproj">
       <Project>{73aef39a-d6bb-5082-1ac5-ba7c75b2225e}</Project>
       <Name>AimingRig</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleInput.Runtime.csproj">
+      <Project>{3485a5a8-1fe8-08a7-9b22-4fcbeca0df08}</Project>
+      <Name>SimpleInput.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleInput.Editor.csproj">
+      <Project>{80d07ed6-50e5-e0e8-bec4-d9a9b8c3bbee}</Project>
+      <Name>SimpleInput.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
