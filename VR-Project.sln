@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{c44b4479-3154-fb98-9e4d-b3f96d250b2e}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInput.Runtime", "SimpleInput.Runtime.csproj", "{3485a5a8-1fe8-08a7-9b22-4fcbeca0df08}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Runtime", "Unity.2D.Animation.Samples.Runtime.csproj", "{f71ac8fd-342a-deff-245a-58dd376db90a}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AimingRig", "AimingRig.csproj", "{73aef39a-d6bb-5082-1ac5-ba7c75b2225e}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Dependency", "Unity.2D.Animation.Samples.Dependency.csproj", "{f1d52636-eef6-f5f4-fb96-b0f9d494e05e}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInput.Runtime", "SimpleInput.Runtime.csproj", "{3485a5a8-1fe8-08a7-9b22-4fcbeca0df08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInput.Editor", "SimpleInput.Editor.csproj", "{80d07ed6-50e5-e0e8-bec4-d9a9b8c3bbee}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Editor", "Unity.2D.Animation.Samples.Editor.csproj", "{2574ba0f-fab4-9722-4ca9-4bdd66ab928b}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{7daba96d-bede-9f37-a32e-8dcc5d2650bb}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleInput.Editor", "SimpleInput.Editor.csproj", "{80d07ed6-50e5-e0e8-bec4-d9a9b8c3bbee}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,20 +24,20 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{c44b4479-3154-fb98-9e4d-b3f96d250b2e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c44b4479-3154-fb98-9e4d-b3f96d250b2e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3485a5a8-1fe8-08a7-9b22-4fcbeca0df08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3485a5a8-1fe8-08a7-9b22-4fcbeca0df08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f71ac8fd-342a-deff-245a-58dd376db90a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f71ac8fd-342a-deff-245a-58dd376db90a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73aef39a-d6bb-5082-1ac5-ba7c75b2225e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73aef39a-d6bb-5082-1ac5-ba7c75b2225e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f1d52636-eef6-f5f4-fb96-b0f9d494e05e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f1d52636-eef6-f5f4-fb96-b0f9d494e05e}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3485a5a8-1fe8-08a7-9b22-4fcbeca0df08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3485a5a8-1fe8-08a7-9b22-4fcbeca0df08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80d07ed6-50e5-e0e8-bec4-d9a9b8c3bbee}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80d07ed6-50e5-e0e8-bec4-d9a9b8c3bbee}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2574ba0f-fab4-9722-4ca9-4bdd66ab928b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2574ba0f-fab4-9722-4ca9-4bdd66ab928b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7daba96d-bede-9f37-a32e-8dcc5d2650bb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7daba96d-bede-9f37-a32e-8dcc5d2650bb}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80d07ed6-50e5-e0e8-bec4-d9a9b8c3bbee}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80d07ed6-50e5-e0e8-bec4-d9a9b8c3bbee}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
