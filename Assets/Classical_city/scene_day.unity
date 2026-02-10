@@ -2636,7 +2636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742325030}
   m_LocalRotation: {x: 0.08715578, y: -0, z: -0, w: 0.9961947}
-  m_LocalPosition: {x: -0.0939455, y: 3.0106952, z: -6.5652695}
+  m_LocalPosition: {x: -0.052410126, y: 3.0106952, z: -6.5652695}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1985295577}
@@ -4597,6 +4597,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextButton: {fileID: 1779675014}
   previousButton: {fileID: 1779675014}
+  cam1: {fileID: 1779675012}
+  cam2: {fileID: 1779675012}
+  SelectionCanvas: {fileID: 1779675012}
+  SkipButton: {fileID: 1779675012}
+  PlayButton: {fileID: 1779675012}
 --- !u!1 &1201364979
 GameObject:
   m_ObjectHideFlags: 0
@@ -176214,7 +176219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014241691}
   m_LocalRotation: {x: 0.08715578, y: 0, z: 0, w: 0.9961947}
-  m_LocalPosition: {x: -15.3439455, y: 3.4506953, z: -31.32527}
+  m_LocalPosition: {x: -15.30241, y: 3.4506953, z: -31.32527}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
